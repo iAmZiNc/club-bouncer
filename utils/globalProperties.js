@@ -48,7 +48,8 @@ module.exports = (client) => {
         aliases: new Collection(),
 
         // add a couple other things
-        logging: {}
+        logging: {},
+        sql: {}
     })
 
     // --- add a couple other things --- //

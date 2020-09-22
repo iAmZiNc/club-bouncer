@@ -12,9 +12,9 @@
     },
     "readme": "https://github.com/iAmZiNc/club_bouncer/blob/master/README.md",
     "dependencies": {
-        "discord.js": "^12.2.0",
+        "discord.js": "^12.3.1",
         "fs-nextra": "^0.4.7",
-        "moment": "^2.24.0",
+        "moment": "^2.28.0",
         "postgres": "^1.0.2"
     }
 }

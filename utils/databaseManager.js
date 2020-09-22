@@ -10,7 +10,7 @@ module.exports = async (client) => {
     })
 
     client.sqlConnection = sqlConnection
-
-    // testing
-    console.log(client.sqlConnection)
+    
+    // define our sql methods
+    client.sql.getSettings = (guild) => (sqlConnection `SELECT * FROM settings WHERE id = ${guild}`)
 }

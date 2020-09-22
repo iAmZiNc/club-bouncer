@@ -1,7 +1,7 @@
 // ------------------------------------------- CLIENT ------------------------------------------ //
 
 const { Client: discordClient } = require('discord.js') // require discord Client
-const client = new discordClient() // create our client instance
+const client = new discordClient({ ws: { intents: 579 }}) // create our client instance
 
 // ------------------------------------- SETUP / UTILITIES ------------------------------------- //
 
